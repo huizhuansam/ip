@@ -54,7 +54,7 @@ public class Deadline extends DatedTask {
      *
      * @param description The Deadline's description.
      * @param by The date to complete the Task by.
-     * @param isDone The done status of the Task
+     * @param isDone The done status of the Task.
      * @return A new Deadline object.
      */
     public static Deadline of(String description, Date by, boolean isDone) {
