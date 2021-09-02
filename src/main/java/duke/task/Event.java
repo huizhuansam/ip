@@ -19,8 +19,8 @@ public class Event extends DatedTask {
     /**
      * Event constructor.
      *
-     * @param description The event's description
-     * @throws BadInputFormatException If the description is badly formatted
+     * @param description The event's description.
+     * @throws BadInputFormatException If the description is badly formatted.
      */
     Event(String description) throws BadInputFormatException, InvalidDateException {
         this(parseToDescription(description),
