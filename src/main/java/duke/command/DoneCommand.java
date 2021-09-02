@@ -39,6 +39,7 @@ public class DoneCommand extends Command {
      *
      * @param tasks The list of tasks in the program.
      * @param storage The storage utility.
+     * @return The response of the command.
      * @throws NoSuchTaskException If the task does not exist at the specified index.
      */
     @Override
