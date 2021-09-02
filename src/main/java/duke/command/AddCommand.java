@@ -15,7 +15,7 @@ import duke.util.TaskList;
 /** Represents an "add" command */
 public class AddCommand extends Command {
     /** The Task object. */
-    private Task task;
+    private final Task task;
 
     /**
      * AddCommand constructor.

@@ -8,7 +8,7 @@ import duke.util.TaskList;
 /** Represents the "delete" command. */
 public class DeleteCommand extends Command {
     /** The index of the Task to be deleted. */
-    private int index;
+    private final int index;
 
     /**
      * DeleteCommand constructor.

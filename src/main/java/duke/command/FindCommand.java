@@ -6,7 +6,7 @@ import duke.util.TaskList;
 /** Represents the "find" command. */
 public class FindCommand extends Command {
     /** The keyword to be matched. */
-    private String keyword;
+    private final String keyword;
 
     /**
      * FindCommand constructor.

@@ -8,7 +8,7 @@ import duke.util.TaskList;
 /** Represents the "done" command. */
 public class DoneCommand extends Command {
     /** The index of the Task to be marked as done. */
-    private int index;
+    private final int index;
 
     /**
      * DoneCommand constructor.
