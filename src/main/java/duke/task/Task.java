@@ -43,7 +43,7 @@ public abstract class Task {
     }
 
     /** Marks the task's status as done */
-    public Task markTaskAsDone() {
+    public Task setDone() {
         isDone = true;
         return this;
     }

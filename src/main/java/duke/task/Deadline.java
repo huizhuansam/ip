@@ -110,7 +110,7 @@ public class Deadline extends DatedTask {
      * @return A JSON representation of the Deadline object.
      */
     @Override
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings("unchecked") // Type warning due to JSON simple library. Type safety guaranteed. Just use it.
     public JSONObject toJsonObject() {
         JSONObject obj = new JSONObject();
         obj.put("type", "deadline");

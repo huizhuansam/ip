@@ -26,7 +26,7 @@ public class EventTest {
     }
 
     @Test
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings("unchecked") // Type warning due to JSON simple library. Type safety guaranteed. Just use it.
     public void testJsonConversion() throws BadInputFormatException, InvalidDateException {
         JSONObject object = new JSONObject();
         object.put("type", "event");
